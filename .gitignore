@@ -3,4 +3,4 @@ node_modules
 .vscode
 package-lock
 .env
-/src/constants.js
+src/constants.js
