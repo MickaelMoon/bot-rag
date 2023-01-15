@@ -31,9 +31,9 @@ client.on('message', (channel, tags, message, self) => {
     // if (message.toLowerCase() === '!hello') {
     //     client.say(channel, `@${tags.username}, heya!`);
     // }
-    if (message.toLowerCase() === '!moche') {
-        client.say(channel, `@${tags.username} , Effectivement tu es moche !`);
-    }
+    // if (message.toLowerCase() === '!moche') {
+    //     client.say(channel, `@${tags.username} , Effectivement tu es moche !`);
+    // }
     if (message.startsWith("!gpt")) {
         useOpenaiApi(tags, message, channel);
     }
