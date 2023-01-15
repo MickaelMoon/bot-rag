@@ -1,5 +1,3 @@
-//TWITCH_OAUTH_TOKEN="oauth:6i3aoofsdnye22688w2q22zw1xhlqu"
-
 
 export const BLOCKED_WORDS = [
     'dog'
